@@ -17,6 +17,15 @@
     "benchmarks/results/RESULTS-v2-fixed.md",
     "benchmarks/results/RESULTS-v2.md",
     "benchmarks/results/RESULTS.md",
+    "governance/DISCLOSURE.md",
+    "governance/README.md",
+    "governance/RELEASE.md",
+    "governance/organization-defaults/.github/ISSUE_TEMPLATE/bug_report.md",
+    "governance/organization-defaults/.github/ISSUE_TEMPLATE/proposal.md",
+    "governance/organization-defaults/.github/PULL_REQUEST_TEMPLATE.md",
+    "governance/organization-defaults/CONTRIBUTING.md",
+    "governance/organization-defaults/SECURITY.md",
+    "governance/organization-defaults/SUPPORT.md",
     "operations/CDN.md",
     "operations/COMMITTEE.md",
     "operations/DEPLOY-DEVNET.md",
@@ -179,6 +188,54 @@
       "format": "markdown",
       "sha256": "be76088a42fb492777e3922dcb8b80fd5b4da01e54f34f8579a37d9bccb352f4",
       "bytes": 113698
+    },
+    {
+      "id": "selected-security-policy",
+      "kind": "source",
+      "path": "SECURITY.md",
+      "format": "markdown",
+      "sha256": "c08a25eb3e7d1664edfb45ca19b3550593e4f092db10624e14564cbf73f0984a",
+      "bytes": 568,
+      "anchors": [
+        "scope"
+      ]
+    },
+    {
+      "id": "selected-upgrade-plan",
+      "kind": "source",
+      "path": "planning/UPGRADES.md",
+      "format": "markdown",
+      "sha256": "569829bc532eecf974713e42fa3566c5cc507299f7c272dfcf7f3e7d21355b78",
+      "bytes": 13585,
+      "anchors": [
+        "open-for-the-operator"
+      ]
+    },
+    {
+      "id": "selected-committee-runbook",
+      "kind": "source",
+      "path": "operations/COMMITTEE.md",
+      "format": "markdown",
+      "sha256": "2c23d0f4ad5539ee615912cb6071c3258cd18a7f12b7de26c78d41c5ec975a0b",
+      "bytes": 16022,
+      "anchors": [
+        "roles"
+      ]
+    },
+    {
+      "id": "proposed-review-roles",
+      "kind": "source",
+      "path": "governance/review-roles.json",
+      "format": "json",
+      "sha256": "77e9eb7907ba5655994786791e57a0c5377a9f07b80813314040269cb243334d",
+      "bytes": 5089,
+      "pointers": [
+        "/schema",
+        "/status",
+        "/authorityEstablished",
+        "/roles",
+        "/reviewRoutes"
+      ]
     }
   ],
   "comparisons": [],
@@ -207,6 +264,22 @@
       "inputs": [],
       "limitations": [
         "Proposals and instructions require separate implementation, deployment and operator qualification."
+      ]
+    },
+    {
+      "id": "governance-proposal",
+      "document": "governance/README.md",
+      "anchor": "source-and-authority",
+      "status": "plan",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [
+        "selected-security-policy",
+        "selected-upgrade-plan",
+        "selected-committee-runbook",
+        "proposed-review-roles"
+      ],
+      "limitations": [
+        "Proposed role responsibilities and inactive organization-default templates only; no actor assignments, effective enforcement, governance acceptance, disclosure, release or activation authority established."
       ]
     }
   ],

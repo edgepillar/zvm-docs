@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "status": "proposal-unadopted",
+  "authorityEstablished": false,
+  "privateEnforcementVerified": false,
+  "sourceContext": {
+    "repository": "Zenoglyphs-VM/zvm-docs",
+    "revision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+    "repositoryInventoryDate": "2026-10-23"
+  },
+  "scope": "Proposed area routing only; not CODEOWNERS patterns, actual assignments, independent review evidence or permission enforcement.",
+  "reviewedRepositories": [
+    ".github",
+    "zenoglyphs",
+    "zvm-bridge",
+    "zvm-bullet",
+    "zvm-core",
+    "zvm-devnet",
+    "zvm-docs",
+    "zvm-explorer",
+    "zvm-fleet",
+    "zvm-glyphswap",
+    "zvm-karum",
+    "zvm-mozaic",
+    "zvm-nft",
+    "zvm-node",
+    "zvm-rain",
+    "zvm-relayer",
+    "zvm-spark",
+    "zvm-status",
+    "zvm-zchan",
+    "zvm-zns"
+  ],
+  "roles": [
+    {
+      "id": "organization-administrator",
+      "responsibility": "Verify effective access, rules, bypasses and authorized team/role mappings.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "repository-maintainer",
+      "responsibility": "Own repository scope, compatibility and accepted source/review decisions.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "protocol-reviewer",
+      "responsibility": "Independently review consensus, vector, fork/genesis and source compatibility.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "custody-reviewer",
+      "responsibility": "Independently review custody, signing, replay, recovery and financial accounting.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "security-coordinator",
+      "responsibility": "Maintain a verified confidential intake and coordinate authorized disclosure decisions.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "release-maintainer",
+      "responsibility": "Bind qualification and authority to immutable outputs and version publication.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    },
+    {
+      "id": "operator",
+      "responsibility": "Verify environment/chain/epoch identity, authorized operation and rehearsed recovery.",
+      "assignedActors": [],
+      "assignmentStatus": "unassigned"
+    }
+  ],
+  "reviewRoutes": [
+    {
+      "area": "organization-defaults",
+      "repositories": [
+        ".github"
+      ],
+      "requiredRoles": [
+        "organization-administrator",
+        "repository-maintainer"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "protocol",
+      "repositories": [
+        "zvm-core",
+        "zvm-docs",
+        "zvm-node",
+        "zvm-relayer"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "protocol-reviewer"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "custody-and-value",
+      "repositories": [
+        "zvm-bridge",
+        "zvm-bullet",
+        "zvm-core",
+        "zvm-glyphswap",
+        "zvm-node",
+        "zvm-rain"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "custody-reviewer",
+        "security-coordinator"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "applications",
+      "repositories": [
+        "zvm-bullet",
+        "zvm-explorer",
+        "zvm-glyphswap",
+        "zvm-karum",
+        "zvm-mozaic",
+        "zvm-nft",
+        "zvm-rain",
+        "zvm-spark",
+        "zvm-zchan",
+        "zvm-zns"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "security-coordinator"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "operation-and-measurement",
+      "repositories": [
+        "zvm-devnet",
+        "zvm-fleet",
+        "zvm-status"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "operator"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "documentation",
+      "repositories": [
+        "zvm-docs"
+      ],
+      "requiredRoles": [
+        "repository-maintainer"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "legacy-source",
+      "repositories": [
+        "zenoglyphs"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "security-coordinator"
+      ],
+      "authorityStatus": "unestablished"
+    },
+    {
+      "area": "distribution",
+      "repositories": [
+        "zenoglyphs",
+        "zvm-bridge",
+        "zvm-bullet",
+        "zvm-core",
+        "zvm-devnet",
+        "zvm-docs",
+        "zvm-explorer",
+        "zvm-fleet",
+        "zvm-glyphswap",
+        "zvm-karum",
+        "zvm-mozaic",
+        "zvm-nft",
+        "zvm-node",
+        "zvm-rain",
+        "zvm-relayer",
+        "zvm-spark",
+        "zvm-status",
+        "zvm-zchan",
+        "zvm-zns"
+      ],
+      "requiredRoles": [
+        "repository-maintainer",
+        "release-maintainer"
+      ],
+      "authorityStatus": "unestablished"
+    }
+  ]
+}

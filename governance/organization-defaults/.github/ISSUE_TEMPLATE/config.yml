@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security reporting instructions
+    url: https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/report-privately
+    about: Follow the affected repository's security policy and verified private route; do not include finding details in a public issue.

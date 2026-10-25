@@ -48,6 +48,16 @@ source, deployment, operator and rollback qualification. They were not executed
 by documentation CI. Configurations must use operator-supplied local values;
 public examples contain no mailbox identity or personal workstation path.
 
+## Governance proposals
+
+The [governance candidate](governance/) adds proposed review responsibilities,
+private disclosure and release/activation decisions, with inactive organization
+default templates. The selected existing security policy, upgrade proposal and
+committee runbook are pinned separately. The [role record](governance/review-roles.json)
+leaves all actors unassigned and authority/enforcement unestablished.
+Documentation checks cannot verify actual private rules, responsible teams,
+independent review, policy adoption or permission to publish or activate.
+
 ## Qualification limits
 
 The checker validates selected bytes and record consistency. Human review still
