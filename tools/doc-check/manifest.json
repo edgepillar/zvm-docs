@@ -236,6 +236,86 @@
         "/roles",
         "/reviewRoutes"
       ]
+    },
+    {
+      "id": "governance-candidate-01",
+      "kind": "source",
+      "path": "governance/DISCLOSURE.md",
+      "format": "markdown",
+      "sha256": "27094baf78e8f09ce582ef5f239e19866efe36bc7d8758e061bf669d7d8dbc2b",
+      "bytes": 2893
+    },
+    {
+      "id": "governance-candidate-02",
+      "kind": "source",
+      "path": "governance/README.md",
+      "format": "markdown",
+      "sha256": "19c389a6145c2929eff24d11f61a2124ec6bdb395119f73d1d44d538d3151ef0",
+      "bytes": 6822
+    },
+    {
+      "id": "governance-candidate-03",
+      "kind": "source",
+      "path": "governance/RELEASE.md",
+      "format": "markdown",
+      "sha256": "d1563378c75774a7df91b0719420b70e599be6bdf323b69f1f9d4ab2320c0491",
+      "bytes": 3985
+    },
+    {
+      "id": "governance-candidate-04",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/bug_report.md",
+      "format": "markdown",
+      "sha256": "cf26ef40b35d3a31f45a85961778f66547946a970d74723946bc41d278109252",
+      "bytes": 910
+    },
+    {
+      "id": "governance-candidate-05",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/config.yml",
+      "format": "bytes",
+      "sha256": "391c73a70b64e37d73e3874b0e626a200c80f2e024734b500b8b7726b9fc0d1d",
+      "bytes": 337
+    },
+    {
+      "id": "governance-candidate-06",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/proposal.md",
+      "format": "markdown",
+      "sha256": "47d7cce409687055486f5ca6da448f2c4901dc513ca5a581ae9719b6aef70e40",
+      "bytes": 1103
+    },
+    {
+      "id": "governance-candidate-07",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/PULL_REQUEST_TEMPLATE.md",
+      "format": "markdown",
+      "sha256": "51bb5442b33fbb5c67d8b8ad22ecb6540ba05cb31272fb8e8cd37d6542eaf3da",
+      "bytes": 1490
+    },
+    {
+      "id": "governance-candidate-08",
+      "kind": "source",
+      "path": "governance/organization-defaults/CONTRIBUTING.md",
+      "format": "markdown",
+      "sha256": "98c6c491a77476d2951f24a181a090930a922fbe9eb7ab10459bb0c24e82c35f",
+      "bytes": 2371
+    },
+    {
+      "id": "governance-candidate-09",
+      "kind": "source",
+      "path": "governance/organization-defaults/SECURITY.md",
+      "format": "markdown",
+      "sha256": "2031ec6e720314db2f97b3c4a11402bef5a4cdb2c0de438e2497e92af6d766ad",
+      "bytes": 1557
+    },
+    {
+      "id": "governance-candidate-10",
+      "kind": "source",
+      "path": "governance/organization-defaults/SUPPORT.md",
+      "format": "markdown",
+      "sha256": "eb92ccc35fff5d697033950b32d47c9227d6459319dfe6f6371785e43b36f475",
+      "bytes": 1149
     }
   ],
   "comparisons": [],
@@ -280,6 +360,29 @@
       ],
       "limitations": [
         "Proposed role responsibilities and inactive organization-default templates only; no actor assignments, effective enforcement, governance acceptance, disclosure, release or activation authority established."
+      ]
+    },
+    {
+      "id": "authored-governance-candidate-source",
+      "document": "EVIDENCE.md",
+      "anchor": "governance-proposals",
+      "status": "implementation",
+      "sourceRevision": "778fb883bab3f0de5b4f8820491d7c177106f592",
+      "inputs": [
+        "governance-candidate-01",
+        "governance-candidate-02",
+        "governance-candidate-03",
+        "governance-candidate-04",
+        "governance-candidate-05",
+        "governance-candidate-06",
+        "governance-candidate-07",
+        "governance-candidate-08",
+        "governance-candidate-09",
+        "governance-candidate-10",
+        "proposed-review-roles"
+      ],
+      "limitations": [
+        "Authored candidate file-byte correspondence only. The governance and organization-default package remain unadopted; no owner assignment, effective rule enforcement, release/disclosure permission or chain activation is established."
       ]
     }
   ],

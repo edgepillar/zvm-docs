@@ -55,6 +55,10 @@ private disclosure and release/activation decisions, with inactive organization
 default templates. The selected existing security policy, upgrade proposal and
 committee runbook are pinned separately. The [role record](governance/review-roles.json)
 leaves all actors unassigned and authority/enforcement unestablished.
+The eleven authored candidate files are bound to Docs
+`778fb883bab3f0de5b4f8820491d7c177106f592` and compared with that Git source.
+This implementation record means the proposal files exist; their policy status
+remains proposed and unadopted.
 Documentation checks cannot verify actual private rules, responsible teams,
 independent review, policy adoption or permission to publish or activate.
 
