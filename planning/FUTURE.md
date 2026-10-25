@@ -5,8 +5,10 @@ uses) and 2026-09-27 (HTLCs).** Nothing here is built or measured. Each item is 
 against the current spec. Where the earlier discussion has since been overtaken, the item
 says so rather than repeating it.
 
-Back to [zvm-docs](../README.md). For designs already decided and not yet built, see
-[HANDOFF.md](HANDOFF.md).
+Back to [zvm-docs](../README.md). Fork coordination is described in
+[UPGRADES.md](UPGRADES.md). The former `HANDOFF.md` reference is unavailable in
+this snapshot; it cannot establish an accepted implementation plan. The
+[evidence inventory](../EVIDENCE.md#plans-and-operations) records that boundary.
 
 ---
 

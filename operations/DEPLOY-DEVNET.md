@@ -260,7 +260,7 @@ of this plan had them the other way round.)
 
 - `-l1-explorer=http://localhost:46000` pointed at the `l1-explorer` profile of
   the *chain 70* stack, which does not serve chain 69. Dropped.
-- `-volumes=…,nom-l1=/volumes/nom-l1` walks the L1 node's data directory for
+- `-volumes=…,nom-l1=$NOM_DATA_ROOT/nom-l1` walks the L1 node's data directory for
   `/ops`. Chain 69's volume is not ours; only `engine=` remains.
 - Every `depends_on: l1-rpc` and the `l1-pillar`/`l1-rpc` services are gone, and
   each service that dials the L1 carries an `extra_hosts` entry for

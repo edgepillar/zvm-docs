@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "documents": [
+    "ARCHITECTURE.md",
+    "EVIDENCE.md",
+    "GUIDE.md",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks/BENCHMARK.md",
+    "benchmarks/results/FLEET-v1.md",
+    "benchmarks/results/FLEET-v2.md",
+    "benchmarks/results/FLEET.md",
+    "benchmarks/results/RESULTS-reth-v1.md",
+    "benchmarks/results/RESULTS-reth-v2.md",
+    "benchmarks/results/RESULTS-v1-fixed.md",
+    "benchmarks/results/RESULTS-v1.md",
+    "benchmarks/results/RESULTS-v2-fixed.md",
+    "benchmarks/results/RESULTS-v2.md",
+    "benchmarks/results/RESULTS.md",
+    "operations/CDN.md",
+    "operations/COMMITTEE.md",
+    "operations/DEPLOY-DEVNET.md",
+    "operations/HALT.md",
+    "operations/PLASMA.md",
+    "operations/PUBLIC.md",
+    "operations/deploy-contract.md",
+    "planning/FUTURE.md",
+    "planning/UPGRADES.md",
+    "spec/DECISIONS.md",
+    "spec/SPEC.md",
+    "tools/doc-check/README.md"
+  ],
+  "references": [
+    {
+      "id": "published-vectors",
+      "kind": "vector",
+      "external": {
+        "repository": "Zenoglyphs-VM/zvm-core",
+        "revision": "29e6d9b30be94de3772c850c7a1e9811585a8833",
+        "path": "vectors/vectors.json"
+      },
+      "format": "json",
+      "sha256": "47c1a3dd7ae040e19bdbd5ea7811c95e0d78dafd97fc1e3294761cbe993a5c85",
+      "bytes": 18070,
+      "pointers": [
+        "/version",
+        "/messages",
+        "/l1Info",
+        "/gas",
+        "/forks",
+        "/exchange"
+      ]
+    },
+    {
+      "id": "history-fleet-v1",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET-v1.md",
+      "format": "markdown",
+      "sha256": "de51f3a6eda934f463b38c862acd7502532ce456368fca9a808ce50793b78fcf",
+      "bytes": 8178,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-fleet-v2",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET-v2.md",
+      "format": "markdown",
+      "sha256": "1b15b1da3bf38a19746368b1b9187fbde6c8a459619f81674f0ba4a42d68f59a",
+      "bytes": 8066,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-fleet",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET.md",
+      "format": "markdown",
+      "sha256": "24d0d9cce729f8e4b40f112db37cfcc94c69fb9e90ca6bd02a7801dfbf13e2aa",
+      "bytes": 7796,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-reth-v1",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-reth-v1.md",
+      "format": "markdown",
+      "sha256": "2999a13d9e2dcb48c9c61966ca00e19259a284550cd067586ce36a12762bc3ac",
+      "bytes": 14293,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-reth-v2",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-reth-v2.md",
+      "format": "markdown",
+      "sha256": "da0ad22a4b466e2e91872f38c9d814e383d8d86d2701e1d9a5168b4370cc1104",
+      "bytes": 10669,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v1-fixed",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v1-fixed.md",
+      "format": "markdown",
+      "sha256": "2d0e142507bb9ca9f67470ec1f1c7d2ae6fed086c77b540c549f6d206fc1e992",
+      "bytes": 14271,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v1",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v1.md",
+      "format": "markdown",
+      "sha256": "91f6a7c5c0f8d2432381ee3b29cc0aa58515e25bc1b9eb883c07262a57e96609",
+      "bytes": 14228,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v2-fixed",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v2-fixed.md",
+      "format": "markdown",
+      "sha256": "be5cea46ba4a7bbbb8fae932e30acb658b5850b752b5a992448f4fc89b775327",
+      "bytes": 14215,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v2",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v2.md",
+      "format": "markdown",
+      "sha256": "b6c9bc7112af9dd0e3cd799a956af140ff9434b35a3f1378110a94070259dd90",
+      "bytes": 14223,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS.md",
+      "format": "markdown",
+      "sha256": "82152b3e8ba74b6c551e40ccd451d2b68db008338ade46dda94465a385b2e02c",
+      "bytes": 14317,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "selected-spec",
+      "kind": "spec",
+      "path": "spec/SPEC.md",
+      "format": "markdown",
+      "sha256": "5e87fb91e976cea86c0969dd38a31ef5b1de74fc3828226400dee027766885d3",
+      "bytes": 29855,
+      "anchors": [
+        "11-vectors"
+      ]
+    },
+    {
+      "id": "selected-decisions",
+      "kind": "spec",
+      "path": "spec/DECISIONS.md",
+      "format": "markdown",
+      "sha256": "be76088a42fb492777e3922dcb8b80fd5b4da01e54f34f8579a37d9bccb352f4",
+      "bytes": 113698
+    }
+  ],
+  "comparisons": [],
+  "claims": [
+    {
+      "id": "selected-spec-source",
+      "document": "EVIDENCE.md",
+      "anchor": "current-source-references",
+      "status": "implementation",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [
+        "selected-spec",
+        "selected-decisions",
+        "published-vectors"
+      ],
+      "limitations": [
+        "Selected source and encoding bytes only; no execution, semantic conformance or activation proof."
+      ]
+    },
+    {
+      "id": "plans-and-runbooks",
+      "document": "EVIDENCE.md",
+      "anchor": "plans-and-operations",
+      "status": "plan",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [],
+      "limitations": [
+        "Proposals and instructions require separate implementation, deployment and operator qualification."
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "history-fleet-v1",
+      "document": "benchmarks/results/FLEET-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-fleet-v2",
+      "document": "benchmarks/results/FLEET-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-fleet",
+      "document": "benchmarks/results/FLEET.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-reth-v1",
+      "document": "benchmarks/results/RESULTS-reth-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-reth-v2",
+      "document": "benchmarks/results/RESULTS-reth-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v1-fixed",
+      "document": "benchmarks/results/RESULTS-v1-fixed.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v1",
+      "document": "benchmarks/results/RESULTS-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v2-fixed",
+      "document": "benchmarks/results/RESULTS-v2-fixed.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v2",
+      "document": "benchmarks/results/RESULTS-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results",
+      "document": "benchmarks/results/RESULTS.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    }
+  ]
+}

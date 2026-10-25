@@ -88,8 +88,8 @@ SMTP_HOST=smtp.example.net
 SMTP_PORT=587
 SMTP_USER=...
 SMTP_PASS=...
-SMTP_FROM=status@zenon.foo
-ALERT_TO=alerts@example.net
+SMTP_FROM=REPLACE_WITH_SENDER_MAILBOX
+ALERT_TO=REPLACE_WITH_RECIPIENT_MAILBOX
 ```
 
 Then prove it, once, rather than finding out during an outage:

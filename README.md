@@ -19,3 +19,5 @@ Numbers measured before 2026-09-16 were taken on op-geth, on chains since
 re-genesised. They are history, not a baseline.
 
 MIT licence. The full guide, with how it works and why: [GUIDE.md](GUIDE.md).
+
+[Source and benchmark evidence](EVIDENCE.md) records the current reference pins, historical raw-data gaps and documentation qualification limits.

@@ -1,3 +1,11 @@
+<a id="evidence-status"></a>
+
+> **Historical method and results.** These records describe the runs and
+> corrections stated below. Their cited raw JSON runs are absent from this
+> repository snapshot. [Evidence status](../EVIDENCE.md#historical-benchmarks)
+> separates this retained narrative from reproducible measurements and current
+> implementation or production claims.
+
 # ZVM benchmark — method
 
 **Measured 2026-09-15 on the ZVM prototype** (`C:\dev\zenon\zvm`), against its
@@ -30,7 +38,7 @@ and the tables are regenerated with `zvm bench report`.
 > `results-noncefix/` are the two controls that isolated the harness's nonce
 > bug. **Where they disagree with the final section, the final section wins.**
 
-Results follow in [RESULTS](#results). This section is what was measured and
+Results follow in [the historical results](#results-2026-09-17--the-fleet-benchmark-re-run-on-both-chains). This section is what was measured and
 what the numbers do and do not mean.
 
 ## What is under test
