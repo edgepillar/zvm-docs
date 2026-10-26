@@ -11,6 +11,7 @@ should not be scattered across them.
 | [spec/SPEC.md](spec/SPEC.md) | the consensus, pinned by zvm-core's `vectors/vectors.json` |
 | [spec/DECISIONS.md](spec/DECISIONS.md) | what was chosen, the prior art, and what reversing it costs |
 | [planning/UPGRADES.md](planning/UPGRADES.md) | how a rule change reaches every node |
+| [planning/research/](planning/research/) | proposed research requirements and review cases for the 24 future ideas |
 | [planning/FUTURE.md](planning/FUTURE.md) | improvements not yet decided |
 | [operations/](operations/) | deploying, halts, plasma, the committee, public hostnames |
 | [benchmarks/](benchmarks/) | the method and every run's tables |
