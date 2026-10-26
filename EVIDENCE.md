@@ -70,3 +70,16 @@ account inventories, endpoints, mailbox identities or credential values should b
 added to public evidence. Automated guards are incomplete and do not establish
 anonymity. Docs adoption does not complete raw benchmark provenance recovery,
 independent maintainer acceptance, G02 or any production gate.
+
+## Source revision aliases
+
+Implementation source selectors use the current contribution history after
+author metadata normalization. Each pair below has an identical complete Git
+tree and identical selected source blobs. Original test results and benchmark
+provenance remain bound to their recorded historical revisions. This source
+correspondence does not establish a fresh runtime test, accepted governance,
+deployment or current performance.
+
+| Implementation claim | Historical revision | Current source alias |
+| --- | --- | --- |
+| `authored-governance-candidate-source` | `778fb883bab3f0de5b4f8820491d7c177106f592` | `77bafd31bc13186ea8c6a69d446d33d60abca8f8` |

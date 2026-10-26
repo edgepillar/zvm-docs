@@ -367,7 +367,7 @@
       "document": "EVIDENCE.md",
       "anchor": "governance-proposals",
       "status": "implementation",
-      "sourceRevision": "778fb883bab3f0de5b4f8820491d7c177106f592",
+      "sourceRevision": "77bafd31bc13186ea8c6a69d446d33d60abca8f8",
       "inputs": [
         "governance-candidate-01",
         "governance-candidate-02",
